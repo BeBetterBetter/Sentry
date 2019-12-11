@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" Connection="1" SerialNo="0" IP="" TargetDevice="STM32F407VE" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="C:\Users\Administrator\Desktop\RoboMaster\нч╣пиз╠Ь\Project\Objects\project.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="gyroz" Address="0x2000001A" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="191" GraphColorBlue="255" YMinSampled="-6367" YMaxSampled="10752" YAvgSampled="0" Offset="4" ShowInGraph="0" YOffset="200" IsAutoConfig="0" YResolution="2000" MaxValue="20000" File="..\APP\system.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="gyrozTarget" Address="0x2000005E" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="100" GraphColorBlue="0" YMinSampled="-1253" YMaxSampled="8448" YAvgSampled="0" Offset="6" ShowInGraph="0" YOffset="200" IsAutoConfig="0" YResolution="1000" MaxValue="10000" File="..\APP\gimbal.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="predictAngle" Address="0x20000238" Type="float" TypeID="1" Size="4" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="-2147483648" YMaxSampled="-2147483648" YAvgSampled="-2147483648" Offset="8" ShowInGraph="0" YOffset="200" IsAutoConfig="1" YResolution="2000000000" MaxValue="-2147483648" File="..\Vision\vision.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="tmpTargetSpeed" Address="0x20000240" Type="float" TypeID="1" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="-2147483648" YMaxSampled="-2147483648" YAvgSampled="-2147483648" Offset="12" ShowInGraph="0" YOffset="200" IsAutoConfig="0" YResolution="1" MaxValue="200" File="..\Vision\vision.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="deltaYaw1" Address="0x20000244" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="-2147483648" YMaxSampled="-2147483648" YAvgSampled="-2147483648" Offset="16" ShowInGraph="0" YOffset="200" IsAutoConfig="1" YResolution="100" MaxValue="200" File="..\Vision\vision.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="deltaYaw2" Address="0x20000248" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="191" GraphColorBlue="255" YMinSampled="-2147483648" YMaxSampled="-2147483648" YAvgSampled="-2147483648" Offset="20" ShowInGraph="0" YOffset="200" IsAutoConfig="1" YResolution="5" MaxValue="10" File="..\Vision\vision.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="target" Address="0x20000050" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="100" GraphColorBlue="0" YMinSampled="-1018" YMaxSampled="4800" YAvgSampled="4271" Offset="24" ShowInGraph="0" YOffset="200" IsAutoConfig="0" YResolution="2000" MaxValue="10000" File="..\APP\rc.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="gyrox" Address="0x20000016" Type="short" TypeID="11" Size="2" GraphColorRed="205" GraphColorGreen="133" GraphColorBlue="63" YMinSampled="-2970" YMaxSampled="7241" YAvgSampled="-17" Offset="26" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="..\APP\system.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
